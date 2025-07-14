@@ -44,7 +44,7 @@ struct ContentView: View {
         Spacer()
         
         if showNewTask {
-            NewToDoView()
+            NewToDoView(toDoItem: ToDoItem(title: "", isImportant: false))
         }
     }
 }
